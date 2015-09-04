@@ -1,0 +1,46 @@
+.navbar{
+  display: inline;
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0;
+  margin-left: -900px;
+}
+
+
+.parent {
+  border: 5px solid lightcoral;
+  height: 1140px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+header {
+  height: 500px;
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+  color: white;
+  font-family: Oswald;
+  text-align: center;
+}
+#headbanner {
+  display: flex;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+}
+.item {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  background-color: DeepSkyBlue;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+  align-self: stretch;
+  height: 1140px;
+}
