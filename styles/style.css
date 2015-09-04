@@ -1,19 +1,39 @@
-.navbar{
-  display: inline;
+.navbar {
+  display: flex;
   position: absolute;
-  left: 0; top: 0; right: 0; bottom: 0;
-  margin-left: -900px;
+  justify-content: space-around;
+  flex-direction: row
+  height: 60px;
+  width: 100%;
+  left: 60px;
+  right: 0;
+  top: 8px;
+  bottom: 0;
+  align-content: flex-end;
 }
 
-
+h1 {
+  width: 100%;
+  display: flex;
+  font-family: Oswald;
+  font-weight: 300;
+  font-size: 80px;
+  color: #FEFEFE;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: -25%;
+}
 .parent {
-  border: 5px solid lightcoral;    
-  height: 1140px;
+  display: flex;
+  width: 1299px;
   margin-left: -10px;
   margin-right: -10px;
   margin-top: -10px;
   margin-bottom: 5px;
+  flex-wrap: wrap;
+
 }
+
 header {
   height: 500px;
   display: flex;
@@ -25,6 +45,7 @@ header {
   font-family: Oswald;
   text-align: center;
 }
+
 #headbanner {
   display: flex;
   max-width: 100%;
@@ -32,15 +53,57 @@ header {
   max-height: 100%;
   min-height: 100%;
 }
+
 .item {
-  height: 400px;
-  width: 400px;
+  height: 1510px;
+  width: 823px;
   display: flex;
-  background-color: DeepSkyBlue;
+  background-color: white;
   color: white;
   text-align: center;
   line-height: 50px;
   font-weight: 600;
   align-self: stretch;
-  height: 1140px;
+}
+
+.sidebar {
+  display: flex;
+  height: 1510px;
+  width: 476px;
+  background-color: white;
+  text-align: left;
+}
+
+.midbottom {
+  display: flex;
+  height: 412px;
+  width: 1299px;
+  background-color: white;
+}
+.bottompics {
+  display: flex;
+  height: 348px;
+  width: 1299px;
+  background-color: white;
+}
+
+footer {
+  display: flex;
+  height: 88px;
+  width: 1299px;
+  background-color: #0B3455;
+}
+
+#snowguy {
+  height: 100px;
+  width: 100px;
+  margin-left: 120px;
+  margin-top: 75px;
+}
+
+#annemarie {
+  height: 400px;
+  width: 300px;
+  margin-top: 300px;
+  margin-left: -190px;
 }
