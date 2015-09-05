@@ -26,11 +26,13 @@ header {
 }
 
 .navbar  .brand img {
-  margin-right: 10px;
+  margin-right 10px;
+  padding-left: 125px;
+  padding-right: 5px;
 }
 
 .navbar  nav > div {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .navbar a {
@@ -41,7 +43,7 @@ h1 {
   text-align: center;
   font-family: Oswald;
   font-weight: 300;
-  font-size: 80px;
+  font-size: 120px;
   color: #FEFEFE;
   margin: 100px 0 0 0;
   line-height: 1em;
@@ -55,6 +57,15 @@ h2.subheading {
   margin: 0;
 }
 
+h3 {
+  color: #0B3454;
+  text-align: left;
+  font-family: oswald;
+  font-size: 36px;
+  padding-bottom: 0;
+  padding-top: 50px;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -65,50 +76,83 @@ main {
   flex-direction: row;
 }
 
-.content {
+article{
+  display:flex;
+  flex-direction: column;
   background-color: white;
-  color: white;
+  color: #0B3455;
   flex-grow: 10;
+  margin-left: 175px;
+  margin-right: 60px;
 }
 
-.sidebar {
+aside {
+  display: flex;
   flex-grow: 1;
   background-color: white;
+  flex-direction: column;
 }
 
 .midbottom {
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  text-align: center;
+  font-family: oswald;
+  font-size: 48px;
 }
 
 .bottompics {
   display: flex;
   background-color: white;
   flex-direction: row;
-  margin: auto;
+  margin: 0;
   padding: 0;
+  background-size: cover;
 }
 
 footer {
   display: flex;
   background-color: #0B3455;
   margin: 0;
+  background-size: cover;
 }
 
 #snowguy {
   height: 100px;
   width: 100px;
-  margin-left: 120px;
-  margin-top: 75px;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 5px;
+  padding-right: 160px;
 }
-
+h6 {
+  margin: auto;
+  color: #1B65B3;
+  padding-right: 160px;
 }
 #annemarie {
-  height: 400px;
   width: 300px;
-  margin-top: 300px;
-  margin-left: -190px;
+  padding: 20px;
+  padding-right: 160px;
+}
+#thumbnail {
+  height: 25px;
+  width: 25px;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 50px;
+  margin-top: -30px;
+}
+.socialinks {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #A5B5C1;
+  font-family: oswald;
+  font-size: 8px;
+  width: 40%;
+  align-self: center;
+  padding-bottom: 100px;
+  padding-right: 160px;
 }
