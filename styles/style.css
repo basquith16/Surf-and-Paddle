@@ -9,6 +9,7 @@ header {
   padding-top: 15px;
   padding-bottom: 100px;
   position: relative;
+  background-size: cover;
 }
 
 .navbar {
@@ -54,36 +55,37 @@ h2.subheading {
   margin: 0;
 }
 
-.parent {
+section {
   display: flex;
   flex-direction: column;
 }
 
 main {
-  display:  flex;
+  display: flex;
   flex-direction: row;
 }
 
-
 .content {
-  background-color: green;
+  background-color: white;
   color: white;
   flex-grow: 10;
 }
 
 .sidebar {
   flex-grow: 1;
-  background-color: blue;
+  background-color: white;
 }
 
 .midbottom {
-  background-color: red;
-  display:flex;
+  background-color: white;
+  display: flex;
   flex-direction: column;
   padding-top: 35px;
   padding-bottom: 35px;
 }
+
 .bottompics {
+  display: flex;
   background-color: white;
   flex-direction: row;
   margin: auto;
@@ -93,8 +95,7 @@ main {
 footer {
   display: flex;
   background-color: #0B3455;
-  flex-direction: row;
-  margin:auto;
+  margin: 0;
 }
 
 #snowguy {
@@ -104,6 +105,7 @@ footer {
   margin-top: 75px;
 }
 
+}
 #annemarie {
   height: 400px;
   width: 300px;
