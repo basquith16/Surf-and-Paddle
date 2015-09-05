@@ -4,20 +4,21 @@ body {
 
 header {
   color: white;
-  font-family: Oswald;
+  font-family: Open Sans;
   background: url(http://i.imgur.com/SmyX7He.jpg) no-repeat center;
   padding-top: 15px;
-  padding-bottom: 100px;
-  position: relative;
+  padding-bottom: 180px;
   background-size: cover;
+  margin: auto;
 }
 
 .navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  line-height: 45px;
+  line-height: 30px;
   margin: auto;
+  font-weight: 600px;
 }
 
 .navbar  .brand, .navbar  nav {
@@ -25,10 +26,18 @@ header {
   flex-direction: row;
 }
 
+nav {
+  font-family: Oswald;
+  font-size: 19px;
+  padding-right: 0;
+  margin-right: -20px;
+}
+
 .navbar  .brand img {
-  margin-right 10px;
-  padding-left: 125px;
+  margin: -5px 15px 0px -2px;
+  padding-left: 115px;
   padding-right: 5px;
+  font-weight: 300;
 }
 
 .navbar  nav > div {
@@ -41,12 +50,13 @@ header {
 
 h1 {
   text-align: center;
-  font-family: Oswald;
-  font-weight: 300;
-  font-size: 120px;
+  font-family: 'Myriad Pro', sans-serif;
+  font-weight: 200;
+  font-size: 110px;
   color: #FEFEFE;
-  margin: 100px 0 0 0;
-  line-height: 1em;
+  margin: 120px 0 0 0;
+  line-height: .8em;
+  padding-top: 4.5%;
 }
 
 h2.subheading {
@@ -55,17 +65,20 @@ h2.subheading {
   font-weight: normal;
   color: #0B3454;
   margin: 0;
+  font-family: Open Sans;
 }
 
 h3 {
   color: #0B3454;
   text-align: left;
-  font-family: oswald;
-  font-size: 36px;
+  font-family: 'Oswald';
+  font-size: 64px;
+  font-weight: 400;
   padding-bottom: 0;
-  padding-top: 50px;
+  margin-right: -50px;
+  margin-bottom: 10px;
+  line-height: 1em;
 }
-
 section {
   display: flex;
   flex-direction: column;
@@ -82,23 +95,28 @@ article {
   background-color: white;
   color: #0B3455;
   flex-grow: 10;
-  margin-left: 175px;
-  margin-right: 60px;
+  margin-left: 150px;
+  margin-right: 80px;
 }
 
 aside {
   display: flex;
   flex-grow: 1;
-  background-color: white;
   flex-direction: column;
+  vertical-align: top;
 }
-.mainarticle{
-  font-family: oswald;
-  font-size: 16;
-  color: #535D66;
-  font-weight: 100;
+
+.mainarticle {
+  vertical-align: middle;
+  font-family: asap;
+  font-size: 14;
+  color: #757D85;
+  font-weight: 300;
   text-align: left;
+  padding-bottom: 1%;
+  line-height: 1.5em;
 }
+
 .midbottom {
   background-color: white;
   display: flex;
@@ -107,69 +125,79 @@ aside {
   font-family: oswald;
   font-size: 48px;
 }
-.woah{
+
+.woah {
+  display: flex;
   font-size: 32px;
   border-left: 1px solid blue;
   line-height: 70px;
   color: #206DB9;
   padding-left: 10px;
-  margin-left: 30px;}
+  margin-left: 30px;
+}
 
 .bottompics {
   display: flex;
   background-color: white;
   flex-direction: row;
-  margin: 0;
   padding: 0;
   background-size: cover;
+  justify-content: center;
 }
 
 footer {
   display: flex;
+  flex-direction: row;
   background-color: #0B3455;
-  margin: 0;
-  background-size: cover;
+  margin: auto;
+  justify-content: center;
 }
 
 #snowguy {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   margin: auto;
-  padding-top: 70px;
-  padding-bottom: 5px;
+  margin-top: 80px;
+  margin-bottom: 0;
   padding-right: 160px;
+  padding-bottom: 0;
 }
 
 h6 {
   margin: auto;
-  color: #1B65B3;
+  color: #1C6BB9;
   padding-right: 160px;
+  margin-bottom: 5px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0;
 }
 
 #annemarie {
-  width: 300px;
+  display: flex;
+  width: 270px;
   padding: 20px;
-  padding-right: 160px;
+  padding-right: 170px;
+  vertical-align: top;
 }
 
-#thumbnail {
-  height: 25px;
-  width: 25px;
-  align-items: center;
-  padding-top: 0;
-  padding-bottom: 50px;
-  margin-top: -30px;
+}
+.thumbnail{
+display: flex;
+width: 1px;
+height: 1px;
 }
 
 .socialinks {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: #A5B5C1;
-  font-family: oswald;
-  font-size: 8px;
-  width: 40%;
+  font-family: Open Sans;
+  font-size: 13px;
+  width: 50%;
   align-self: center;
-  padding-bottom: 100px;
+  padding-bottom: 45px;
   padding-right: 160px;
+  line-height: 1em;
 }
