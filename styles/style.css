@@ -76,8 +76,8 @@ main {
   flex-direction: row;
 }
 
-article{
-  display:flex;
+article {
+  display: flex;
   flex-direction: column;
   background-color: white;
   color: #0B3455;
@@ -92,7 +92,13 @@ aside {
   background-color: white;
   flex-direction: column;
 }
-
+.mainarticle{
+  font-family: oswald;
+  font-size: 16;
+  color: #535D66;
+  font-weight: 100;
+  text-align: left;
+}
 .midbottom {
   background-color: white;
   display: flex;
@@ -101,6 +107,13 @@ aside {
   font-family: oswald;
   font-size: 48px;
 }
+.woah{
+  font-size: 32px;
+  border-left: 1px solid blue;
+  line-height: 70px;
+  color: #206DB9;
+  padding-left: 10px;
+  margin-left: 30px;}
 
 .bottompics {
   display: flex;
@@ -126,16 +139,19 @@ footer {
   padding-bottom: 5px;
   padding-right: 160px;
 }
+
 h6 {
   margin: auto;
   color: #1B65B3;
   padding-right: 160px;
 }
+
 #annemarie {
   width: 300px;
   padding: 20px;
   padding-right: 160px;
 }
+
 #thumbnail {
   height: 25px;
   width: 25px;
@@ -144,8 +160,9 @@ h6 {
   padding-bottom: 50px;
   margin-top: -30px;
 }
+
 .socialinks {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   color: #A5B5C1;
