@@ -79,6 +79,7 @@ h3 {
   margin-bottom: 10px;
   line-height: 1em;
 }
+
 section {
   display: flex;
   flex-direction: column;
@@ -87,6 +88,7 @@ section {
 main {
   display: flex;
   flex-direction: row;
+  padding-bottom: 60px;
 }
 
 article {
@@ -96,7 +98,7 @@ article {
   color: #0B3455;
   flex-grow: 10;
   margin-left: 150px;
-  margin-right: 80px;
+
 }
 
 aside {
@@ -104,6 +106,7 @@ aside {
   flex-grow: 1;
   flex-direction: column;
   vertical-align: top;
+  padding-right: 50px;
 }
 
 .mainarticle {
@@ -124,16 +127,25 @@ aside {
   text-align: center;
   font-family: oswald;
   font-size: 48px;
+  border-top: 1px solid #C8CBCE;
 }
 
 .woah {
   display: flex;
-  font-size: 32px;
-  border-left: 1px solid blue;
+  font-size: 26px;
+  border-left: 2px solid #C8CBCE;
   line-height: 70px;
   color: #206DB9;
   padding-left: 10px;
-  margin-left: 30px;
+  margin-left: 0;
+}
+
+.articlelinks {
+  display: inline;
+  width: 160px;
+  height: 130;
+  padding: 5px;
+  padding-top: 0;
 }
 
 .bottompics {
@@ -143,6 +155,7 @@ aside {
   padding: 0;
   background-size: cover;
   justify-content: center;
+  margin: 0;
 }
 
 footer {
@@ -151,42 +164,42 @@ footer {
   background-color: #0B3455;
   margin: auto;
   justify-content: center;
+  background-size: cover;
 }
 
 #snowguy {
-  height: 80px;
-  width: 80px;
+  height: 85px;
+  width: 85px;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 85px;
   margin-bottom: 0;
-  padding-right: 160px;
+  padding-right: 70px;
   padding-bottom: 0;
 }
 
 h6 {
   margin: auto;
   color: #1C6BB9;
-  padding-right: 160px;
-  margin-bottom: 5px;
+  padding-right: 70px;
+  margin-bottom: 0;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 500;
-  margin-top: 0;
+  margin-top: 5px;
 }
 
 #annemarie {
   display: flex;
   width: 270px;
-  padding: 20px;
-  padding-right: 170px;
-  vertical-align: top;
+  padding-right: 70px;
 }
 
 }
-.thumbnail{
-display: flex;
-width: 1px;
-height: 1px;
+
+.thumbnail {
+  display: flex;
+  width: 1px;
+  height: 1px;
 }
 
 .socialinks {
@@ -198,6 +211,36 @@ height: 1px;
   width: 50%;
   align-self: center;
   padding-bottom: 45px;
-  padding-right: 160px;
+  padding-right: 70px;
   line-height: 1em;
+  margin-top: 2px;
+}
+figcaption {
+  text-align: right;
+  margin-right: 70px;
+  font-weight: 100;
+  margin-top: 5px;
+  color: #B4B7B9;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.sidebarHeading {
+  font-family: Oswald;
+  font-size: 18px;
+  color: #206DB9;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: 0;
+}
+.sidebarParag {
+  text-align: left;
+  margin-left: 40px;
+  font-size: 13px;
+  color: #C8CBCE;
+  font-weight:100;
+  line-height: 1.8em;
+  font-family: asap;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
