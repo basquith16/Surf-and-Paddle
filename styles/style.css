@@ -97,7 +97,7 @@ article {
   background-color: white;
   color: #0B3455;
   flex-grow: 10;
-  margin-left: 150px;
+  margin-left: 120px;
 
 }
 
@@ -236,8 +236,8 @@ figcaption {
 .sidebarParag {
   text-align: left;
   margin-left: 40px;
-  font-size: 13px;
-  color: #C8CBCE;
+  font-size: 14px;
+  color: #B5B7B8;
   font-weight:100;
   line-height: 1.8em;
   font-family: asap;
@@ -249,9 +249,30 @@ figcaption {
   display: flex;
   flex-direction: row;
   background-color: #0B3455;
-  justify-content: center;
-  vertical-align: middle;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
 }
 .logo{
+  display: flex;
+  flex-direction: row;
   height: 40px;
+  margin-top: 30px;
+  margin-left: 115px;
+
+}
+.bottomNav {
+  text-align: left;
+  font-size: 14px;
+  color: #A2A5A6;
+  font-weight:100;
+  line-height: 1.8em;
+  font-family: asap;
+  margin-top: 40px;
+  margin-left: 15px;
+  padding-bottom: 0;
+}
+.navLinks {
+  font-size: 14px;
+  font-weight:100;
 }
