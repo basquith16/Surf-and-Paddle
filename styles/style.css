@@ -244,3 +244,14 @@ figcaption {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+.footerNav {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color: #0B3455;
+  justify-content: center;
+  vertical-align: middle;
+}
+.logo{
+  height: 40px;
+}
