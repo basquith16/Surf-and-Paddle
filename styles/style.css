@@ -244,11 +244,10 @@ footer {
   margin: 0;
 }
 .bottompics img {
-  max-width: 25%;
   opacity: .4;
 }
 .coolthings:hover {
-  opacity: 1;
+  opacity: 1
 }
 
 .footerNav {
