@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -107,65 +108,6 @@ aside {
   vertical-align: top;
   padding-right: 50px;
 }
-
-.mainarticle {
-  vertical-align: middle;
-  font-family: asap;
-  font-size: 14;
-  color: #757D85;
-  font-weight: 300;
-  text-align: left;
-  padding-bottom: 1%;
-  line-height: 1.5em;
-}
-
-.midbottom {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-family: oswald;
-  font-size: 48px;
-  border-top: 1px solid #C8CBCE;
-}
-
-.woah {
-  display: flex;
-  font-size: 26px;
-  border-left: 2px solid #C8CBCE;
-  line-height: 70px;
-  color: #206DB9;
-  padding-left: 10px;
-  margin-left: 0;
-}
-
-.articlelinks {
-  display: inline;
-  width: 160px;
-  height: 130;
-  padding: 5px;
-  padding-top: 0;
-}
-
-.bottompics {
-  display: flex;
-  background-color: white;
-  flex-direction: row;
-  padding: 0;
-  background-size: cover;
-  justify-content: center;
-  margin: 0;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  background-color: #0B3455;
-  margin: auto;
-  justify-content: center;
-  background-size: cover;
-}
-
 #snowguy {
   height: 85px;
   width: 85px;
@@ -175,26 +117,6 @@ footer {
   padding-right: 70px;
   padding-bottom: 0;
 }
-
-h6 {
-  margin: auto;
-  color: #1C6BB9;
-  padding-right: 70px;
-  margin-bottom: 0;
-  font-family: Open Sans;
-  font-size: 16px;
-  font-weight: 500;
-  margin-top: 5px;
-}
-
-#annemarie {
-  display: flex;
-  width: 270px;
-  padding-right: 70px;
-}
-
-}
-
 .thumbnail {
   display: flex;
   width: 1px;
@@ -243,6 +165,77 @@ figcaption {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+h6 {
+  margin: auto;
+  color: #1C6BB9;
+  padding-right: 70px;
+  margin-bottom: 0;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+#annemarie {
+  display: flex;
+  width: 270px;
+  padding-right: 70px;
+}
+.mainarticle {
+  vertical-align: middle;
+  font-family: asap;
+  font-size: 14;
+  color: #757D85;
+  font-weight: 300;
+  text-align: left;
+  padding-bottom: 1%;
+  line-height: 1.5em;
+}
+.woah {
+  display: flex;
+  font-size: 26px;
+  border-left: 2px solid #C8CBCE;
+  line-height: 70px;
+  color: #206DB9;
+  padding-left: 10px;
+  margin-left: 0;
+}
+.articlelinks {
+  display: inline;
+  width: 160px;
+  height: 130;
+  padding: 5px;
+  padding-top: 0;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #0B3455;
+  margin: 0;
+  justify-content: center;
+  background-size: cover;
+}
+.midbottom {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: oswald;
+  font-size: 48px;
+  border-top: 1px solid #C8CBCE;
+}
+.bottompics {
+  display: flex;
+  background-color: #0B3455;
+  flex-direction: row;
+  padding: 0;
+  background-size:cover;
+  margin: 0;
+  border: 2px solid red;
+}
+.bottompics img {
+  max-width: 25%;
+}
 .footerNav {
   height: 100px;
   display: flex;
@@ -253,14 +246,13 @@ figcaption {
   margin: 0;
 }
 .logo{
-  display: flex;
-  flex-direction: row;
   height: 40px;
   margin-top: 30px;
   margin-left: 115px;
-
 }
 .bottomNav {
+  display: flex;
+  flex-direction: row;
   text-align: left;
   font-size: 14px;
   color: #A2A5A6;
@@ -275,3 +267,54 @@ figcaption {
   font-size: 14px;
   font-weight:100;
 }
+
+@media all and (max-width: 800px) {
+  header {
+    height: 100px;
+  }
+  .bottompics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bottompics img{
+    max-width: 75%;
+  }
+  article {
+    text-align: center;
+    margin: 20px;
+  }
+  h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+  }
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+}
+.navbar  .brand img {
+  margin: 90px 0 0 -400px;
+}
+.blog {
+}
+.rightNav {
+  margin-left: -180px;
+}
+
+
+  @media all and (max-width: 600px) {
+    .bottompics {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .bottompics img{
+      max-width: 100%;
+    }
+    article {
+      text-align: center;
+      margin: 20px;
+    }
