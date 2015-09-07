@@ -3,6 +3,8 @@ body {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
   color: white;
   font-family: Open Sans;
   background: url(http://i.imgur.com/SmyX7He.jpg) no-repeat center;
@@ -14,27 +16,24 @@ header {
 
 .navbar {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction:row;
+  justify-content: space-around;
   line-height: 30px;
-  margin: auto;
+  margin: 0;
   font-weight: 600px;
-}
-
-.navbar  .brand, .navbar  nav {
-  display: flex;
-  flex-direction: row;
 }
 
 nav {
   font-family: Oswald;
   font-size: 19px;
   padding-right: 0;
-  margin-right: -20px;
+  margin-right: -320px;
+  display: flex;
+  flex-direction: row;
 }
 
 .navbar  .brand img {
-  margin: -5px 15px 0px -2px;
+  margin: -5px 15px 0px -260px;
   padding-left: 115px;
   padding-right: 5px;
   font-weight: 300;
@@ -61,8 +60,8 @@ h1 {
 
 h2.subheading {
   text-align: center;
-  font-size: 14px;
-  font-weight: normal;
+  font-size: 15px;
+  font-weight: 600;
   color: #0B3454;
   margin: 0;
   font-family: Open Sans;
@@ -160,7 +159,7 @@ aside {
 
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: #0B3455;
   margin: auto;
   justify-content: center;
