@@ -17,7 +17,7 @@ header {
 
 .navbar {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: space-around;
   line-height: 30px;
   margin: 0;
@@ -98,7 +98,6 @@ article {
   color: #0B3455;
   flex-grow: 10;
   margin-left: 120px;
-
 }
 
 aside {
@@ -108,6 +107,7 @@ aside {
   vertical-align: top;
   padding-right: 50px;
 }
+
 #snowguy {
   height: 85px;
   width: 85px;
@@ -117,6 +117,7 @@ aside {
   padding-right: 70px;
   padding-bottom: 0;
 }
+
 .thumbnail {
   display: flex;
   width: 1px;
@@ -136,6 +137,7 @@ aside {
   line-height: 1em;
   margin-top: 2px;
 }
+
 figcaption {
   text-align: right;
   margin-right: 70px;
@@ -145,6 +147,7 @@ figcaption {
   font-size: 14px;
   padding-bottom: 10px;
 }
+
 .sidebarHeading {
   font-family: Oswald;
   font-size: 18px;
@@ -154,17 +157,19 @@ figcaption {
   margin-left: 40px;
   margin-bottom: 0;
 }
+
 .sidebarParag {
   text-align: left;
   margin-left: 40px;
   font-size: 14px;
   color: #B5B7B8;
-  font-weight:100;
+  font-weight: 100;
   line-height: 1.8em;
   font-family: asap;
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
 h6 {
   margin: auto;
   color: #1C6BB9;
@@ -181,6 +186,7 @@ h6 {
   width: 270px;
   padding-right: 70px;
 }
+
 .mainarticle {
   vertical-align: middle;
   font-family: asap;
@@ -191,6 +197,7 @@ h6 {
   padding-bottom: 1%;
   line-height: 1.5em;
 }
+
 .woah {
   display: flex;
   font-size: 26px;
@@ -200,6 +207,7 @@ h6 {
   padding-left: 10px;
   margin-left: 0;
 }
+
 .articlelinks {
   display: inline;
   width: 160px;
@@ -207,6 +215,7 @@ h6 {
   padding: 5px;
   padding-top: 0;
 }
+
 footer {
   display: flex;
   flex-direction: column;
@@ -215,6 +224,7 @@ footer {
   justify-content: center;
   background-size: cover;
 }
+
 .midbottom {
   background-color: white;
   display: flex;
@@ -224,20 +234,22 @@ footer {
   font-size: 48px;
   border-top: 1px solid #C8CBCE;
 }
+
 .bottompics {
   display: flex;
   background-color: #0B3455;
   flex-direction: row;
   padding: 0;
-  background-size:cover;
+  background-size: cover;
   margin: 0;
-  border: 2px solid red;
 }
+
 .bottompics img {
   max-width: 25%;
 }
+
 .footerNav {
-  height: 100px;
+  height: auto;
   display: flex;
   flex-direction: row;
   background-color: #0B3455;
@@ -245,76 +257,109 @@ footer {
   padding: 0;
   margin: 0;
 }
-.logo{
+
+.logo {
   height: 40px;
   margin-top: 30px;
   margin-left: 115px;
+  margin-bottom: 15px;
 }
+
 .bottomNav {
   display: flex;
   flex-direction: row;
   text-align: left;
   font-size: 14px;
   color: #A2A5A6;
-  font-weight:100;
+  font-weight: 100;
   line-height: 1.8em;
   font-family: asap;
   margin-top: 40px;
   margin-left: 15px;
   padding-bottom: 0;
 }
+
 .navLinks {
   font-size: 14px;
-  font-weight:100;
+  font-weight: 100;
 }
 
 @media all and (max-width: 800px) {
   header {
     height: 100px;
   }
+
   .bottompics {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .bottompics img{
+
+  .bottompics img {
     max-width: 75%;
   }
+
   article {
     text-align: center;
     margin: 20px;
   }
+
   h1 {
     font-size: 30px;
     margin-top: 10px;
     padding-bottom: 5px;
   }
+
   .navbar {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     font-size: 10px;
-}
-.navbar  .brand img {
-  margin: 90px 0 0 -400px;
-}
-.blog {
-}
-.rightNav {
-  margin-left: -180px;
+  }
+
+  .navbar  .brand img {
+    margin: 90px 0 0 -400px;
+  }
+
+  .rightNav {
+    margin-left: -180px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  .footerNav {
+    display: flex;
+    justify-content: center;
+  }
+  .bottomNav {
+    font-size: 8px;
+   text-align: left;
+   margin: 5px 0 0 15px;
+  }
+  .logo {
+    margin-left: 340px;
+  }
+  .navLinks {
+text-align: center;
+    font-size: 8px;
+    margin-right: 100px;
+
+  }
 }
 
+@media all and (max-width: 600px) {
+  .bottompics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-  @media all and (max-width: 600px) {
-    .bottompics {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .bottompics img{
-      max-width: 100%;
-    }
-    article {
-      text-align: center;
-      margin: 20px;
-    }
+  .bottompics img {
+    max-width: 100%;
+  }
+
+  article {
+    text-align: center;
+    margin: 20px;
+  }
